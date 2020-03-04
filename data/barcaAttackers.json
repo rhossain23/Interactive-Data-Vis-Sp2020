@@ -1,0 +1,436 @@
+[
+    {
+      "name": "Messi, Lionel",
+      "position": "Right Winger",
+      "appearances": 471,
+      "goals": 433,
+      "assists": 181
+    },
+    {
+        "name": "Suarez, Luis",
+        "position": "Center Forward",
+        "appearances": 180,
+        "goals": 142,
+        "assists": 73
+    },
+    {
+        "name": "Dembele, Ousmane",
+        "position": "Right Winger",
+        "appearances": 51,
+        "goals": 12,
+        "assists": 12
+    },
+    {
+        "name": "Turan, Arda",
+        "position": "Left Winger",
+        "appearances": 36,
+        "goals": 5,
+        "assists": 6
+    },
+    {
+      "name": "Fati, Ansu",
+      "position": "Left Winger",
+      "appearances": 14,
+      "goals": 4,
+      "assists": 1
+    },
+    {
+        "name": "Griezmann, Antoine",
+        "position": "Center Forward",
+        "appearances": 23,
+        "goals": 8,
+        "assists": 4
+    },
+    {
+        "name": "Coutinho, Philippe",
+        "position": "Attacking Midfielder",
+        "appearances": 52,
+        "goals": 13,
+        "assists": 7
+    },
+    {
+        "name": "Rafinha",
+        "position": "Attacking Midfielder",
+        "appearances": 56,
+        "goals": 8,
+        "assists": 3
+    },
+    {
+        "name": "Suarez, Denis",
+        "position": "Left Winger",
+        "appearances": 46,
+        "goals": 3,
+        "assists": 6
+    },
+    {
+        "name": "Malcom",
+        "position": "Right Winger",
+        "appearances": 15,
+        "goals": 1,
+        "assists": 2
+    },
+    {
+        "name": "Perez, Carles",
+        "position": "Right Winger",
+        "appearances": 11,
+        "goals": 1,
+        "assists": 3
+    },
+    {   
+        "name": "Collado, Alex",
+        "position": "Right Winger",
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Alcacer, Paco",
+        "position": "Center Forward",
+        "appearances": 37,
+        "goals": 10,
+        "assists": 7
+    },
+    {   
+        "name": "El Haddadi, Munir",
+        "position": "Center Forward",
+        "appearances": 33,
+        "goals": 5,
+        "assists": 5
+    },
+    {   
+        "name": "Boateng, Kevin Prince",
+        "position": "Center Forward",
+        "appearances": 3,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Ruiz, Abel",
+        "position": "Center Forward",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Deulofeu, Gerard",
+        "position": "Left Winger",
+        "appearances": 12,
+        "goals": 1,
+        "assists": 1
+    },
+    {   
+        "name": "Arnaiz, Jose Manuel",
+        "position": "Left Winger",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Vidal, Aleix",
+        "position": "Right Winger",
+        "appearances": 30,
+        "goals": 3,
+        "assists": 4
+    },
+    {   
+        "name": "Tello, Cristian",
+        "position": "Left Winger",
+        "appearances": 59,
+        "goals": 11,
+        "assists": 7
+    },
+    {   
+        "name": "Neymar",
+        "position": "Left Winger",
+        "appearances": 123,
+        "goals": 68,
+        "assists": 50
+    },
+    {   
+        "name": "Pedro",
+        "position": "Right Winger",
+        "appearances": 204,
+        "goals": 58,
+        "assists": 45
+    },
+    {   
+        "name": "Ramirez, Sandro",
+        "position": "Center Forward",
+        "appearances": 17,
+        "goals": 2,
+        "assists": 1
+    },
+    {   
+        "name": "Traore, Adama",
+        "position": "Right Winger",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Sanchez, Alexis",
+        "position": "Left Winger",
+        "appearances": 88,
+        "goals": 39,
+        "assists": 27
+    },
+    {   
+        "name": "Krkic, Bojan",
+        "position": "Second Striker",
+        "appearances": 104,
+        "goals": 26,
+        "assists": 12
+    },
+    {   
+        "name": "Dongou, Jean Marie",
+        "position": "Center Forward",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Villa, David",
+        "position": "Center Forward",
+        "appearances": 77,
+        "goals": 33,
+        "assists": 19
+    },
+    {   
+        "name": "Vazquez, Victor",
+        "position": "Attacking Midfielder",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Nolito",
+        "position": "Left Winger",
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Jeffren",
+        "position": "Right Winger",
+        "appearances": 22,
+        "goals": 3,
+        "assists": 1
+    },
+    {   
+        "name": "Ibrahimovic, Zlatan",
+        "position": "Center Forward",
+        "appearances": 29,
+        "goals": 16,
+        "assists": 9
+    },
+    {   
+        "name": "Henry, Thierry",
+        "position": "Center Forward",
+        "appearances": 80,
+        "goals": 35,
+        "assists": 20
+    },
+    {   
+        "name": "Gudjohnsen, Eidur",
+        "position": "Center Forward",
+        "appearances": 72,
+        "goals": 10,
+        "assists": 8
+    },
+    {   
+        "name": "Hleb, Aleksandr",
+        "position": "Attacking Midfielder",
+        "appearances": 19,
+        "goals": 0,
+        "assists": 3
+    },
+    {   
+        "name": "Eto'o, Samuel",
+        "position": "Center Forward",
+        "appearances": 144,
+        "goals": 108,
+        "assists": 28
+    },
+    {   
+        "name": "Ronaldinho",
+        "position": "Attacking Midfielder",
+        "appearances": 145,
+        "goals": 70,
+        "assists": 50
+    },
+    {   
+        "name": "Deco",
+        "position": "Attacking Midfielder",
+        "appearances": 113,
+        "goals": 11,
+        "assists": 35
+    },
+    {   
+        "name": "dos Santos, Giovani",
+        "position": "Second Striker",
+        "appearances": 27,
+        "goals": 3,
+        "assists": 7
+    },
+    {   
+        "name": "Ezquerro, Santiago",
+        "position": "Center Forward",
+        "appearances": 24,
+        "goals": 3,
+        "assists": 1
+    },
+    {   
+        "name": "Giuly, Ludovic",
+        "position": "Right Winger",
+        "appearances": 86,
+        "goals": 19,
+        "assists": 11
+    },
+    {   
+        "name": "Saviola, Javier",
+        "position": "Second Striker",
+        "appearances": 123,
+        "goals": 49,
+        "assists": 22
+    },
+    {   
+        "name": "Montanes, Paco",
+        "position": "Left Winger",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Lopez, Maxi",
+        "position": "Center Forward",
+        "appearances": 14,
+        "goals": 0,
+        "assists": 2
+    },
+    {   
+        "name": "Larsson, Henrik",
+        "position": "Center Forward",
+        "appearances": 40,
+        "goals": 13,
+        "assists": 4
+    },
+    {   
+        "name": "Garcia, Luis",
+        "position": "Right Winger",
+        "appearances": 25,
+        "goals": 4,
+        "assists": 9
+    },
+    {   
+        "name": "Santamaria, Sergio",
+        "position": "Right Winger",
+        "appearances": 6,
+        "goals": 0,
+        "assists": 0
+    },
+    {   
+        "name": "Ibrahimovic, Zlatan",
+        "position": "Center Forward",
+        "appearances": 29,
+        "goals": 16,
+        "assists": 9
+    },
+    {   
+        "name": "Overmars, Marc",
+        "position": "Left Winger",
+        "appearances": 97,
+        "goals": 15,
+        "assists": 14
+    },
+    {   
+        "name": "Quaresma, Ricardo",
+        "position": "Right Winger",
+        "appearances": 22,
+        "goals": 1,
+        "assists": 1
+    },
+    {   
+        "name": "Kluivert, Patrick",
+        "position": "Center Forward",
+        "appearances": 182,
+        "goals": 90,
+        "assists": 45
+    },
+    {   
+        "name": "Garcia, Sergio",
+        "position": "Center Forward",
+        "appearances": 4,
+        "goals": 0,
+        "assists": 1
+    },
+    {   
+        "name": "Riquelme, Juan Roman",
+        "position": "Attacking Midfielder",
+        "appearances": 30,
+        "goals": 3,
+        "assists": 6
+    },
+    {   
+        "name": "Geovanni",
+        "position": "Attacking Midfielder",
+        "appearances": 26,
+        "goals": 1,
+        "assists": 2
+    },
+    {   
+        "name": "Garcia, Dani",
+        "position": "Center Forward",
+        "appearances": 50,
+        "goals": 12,
+        "assists": 4
+    },
+    {   
+        "name": "Rivaldo",
+        "position": "Attacking Midfielder",
+        "appearances": 157,
+        "goals": 86,
+        "assists": 32
+    },
+    {   
+        "name": "Jofre",
+        "position": "Left Winger",
+        "appearances": 2,
+        "goals": 1,
+        "assists": 0
+    },
+    {   
+        "name": "Alfonso",
+        "position": "Center Forward",
+        "appearances": 21,
+        "goals": 2,
+        "assists": 1
+    },
+    {   
+        "name": "de la Pena, Ivan",
+        "position": "Attacking Midfielder",
+        "appearances": 90,
+        "goals": 11,
+        "assists": 2
+    },
+    {   
+        "name": "Litmanen, Jari",
+        "position": "Attacking Midfielder",
+        "appearances": 21,
+        "goals": 3,
+        "assists": 2
+    },
+    {   
+        "name": "Simao",
+        "position": "Left Winger",
+        "appearances": 46,
+        "goals": 3,
+        "assists": 4
+    },
+    {   
+        "name": "Zenden, Boudewijn",
+        "position": "Left Winger",
+        "appearances": 64,
+        "goals": 2,
+        "assists": 3
+    }
+]

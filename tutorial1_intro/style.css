@@ -1,0 +1,26 @@
+body {
+  font-family: Arial sans-serif;
+  padding: 0.5em;
+}
+
+h2 {
+  font-size: 15px;
+}
+  
+table {
+  border-collapse: collapse;
+}
+  
+tr {
+  line-height: 1.75;
+}
+  
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 0 0.5em;
+}
+  
+.greater-than-30 {
+  background-color: lightsteelblue;
+}

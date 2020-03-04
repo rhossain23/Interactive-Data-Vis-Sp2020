@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    padding: 1em 3em;
+  }
+
+.dot:hover {
+  fill: purple;
+}
+  
+  #tooltip {
+    display: block;
+    height: 50px;
+  }
+  
+  path.state {
+    stroke: black;
+  }

@@ -1,58 +1,81 @@
-/**
- * CONSTANTS AND GLOBALS
- * */
 const width = window.innerWidth * 0.9,
   height = window.innerHeight * 0.7,
   margin = { top: 20, bottom: 50, left: 60, right: 40 };
 
-/** these variables allow us to access anything we manipulate in
- * init() but need access to in draw().
- * All these variables are empty before we assign something to them.*/
 let svg;
 
-/**
- * APPLICATION STATE
- * */
 let state = {
-  // + SET UP STATE
+  geojson: null,
+  extremes: null,
+  hover: {
+    latitude: null,
+    longitude: null,
+    state: null,
+  },
 };
 
-/**
- * LOAD DATA
- * Using a Promise.all([]), we can load more than one dataset at a time
- * */
 Promise.all([
-  d3.json("PATH_TO_YOUR_GEOJSON"),
-  d3.csv("PATH_TO_ANOTHER_DATASET", d3.autoType),
-]).then(([geojson, otherData]) => {
-  // + SET STATE WITH DATA
+  d3.json("../data/us-state.json"),
+  d3.csv("../data/usHeatExtremes.csv", d3.autoType),
+]).then(([geojson, extremes]) => {
+  state.geojson = geojson;
+  state.extremes = extremes;
   console.log("state: ", state);
   init();
 });
 
-/**
- * INITIALIZING FUNCTION
- * this will be run *one time* when the data finishes loading in
- * */
 function init() {
-  // create an svg element in our main `d3-container` element
-  svg = d3
+  const projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
+  const path = d3.geoPath().projection(projection);
+
+ svg = d3
     .select("#d3-container")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
 
-  // + SET UP PROJECTION
-  // + SET UP GEOPATH
+  svg
+    .selectAll(".state")
+    .data(state.geojson.features)
+    .join("path")
+    .attr("d", path)
+    .attr("class", "state")
+    .attr("fill", "lightblue");
 
-  // + DRAW BASE MAP PATH
-  // + ADD EVENT LISTENERS (if you want)
-
-  draw(); // calls the draw function
+  svg
+    .selectAll("circle")
+    .data(state.extremes)
+    .join("circle")
+    .attr("class", "dot")
+    .attr("r", 3)
+    .attr("fill", "red")
+    .attr("cx", function(d) {
+      return projection([d.Long, d.Lat])[0];
+    })
+    .attr("cy", function(d) {
+      return projection([d.Long, d.Lat])[1];
+    })
+    .on("mouseover", d => {
+      const [mx, my] = d3.mouse(svg.node());
+      const proj = projection.invert([mx, my]);
+      state.hover["Longitude"] = proj[0];
+      state.hover["Latitude"] = proj[1];
+      state.hover["State"] = d.State;
+      draw();
+    });
 }
 
-/**
- * DRAW FUNCTION
- * we call this everytime there is an update to the data/state
- * */
-function draw() {}
+function draw() {
+  hoverData = Object.entries(state.hover);
+  d3.select("#hover-content")
+    .selectAll("div.row")
+    .data(hoverData)
+    .join("div")
+    .attr("class", "row")
+    .html(
+      d =>
+        d[1]
+          ? `${d[0]}: ${d[1]}`
+          : null
+    );
+}
